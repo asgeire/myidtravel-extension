@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "myIDTravel Available Seats",
+  "version": "1.0.0",
+  "description": "Adds an Available row to flight load tables on myIDTravel",
+  "host_permissions": [
+    "https://www.myidtravel.com/*",
+    "https://myidtravel.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.myidtravel.com/*",
+        "https://myidtravel.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
