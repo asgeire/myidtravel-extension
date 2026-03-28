@@ -10,6 +10,8 @@ When you open a flight's detail modal, the extension automatically injects:
 
 The row is highlighted in green for quick scanning.
 
+![Available seats row injected into the flight load table](screenshot.png)
+
 ## Setup (Chrome Developer Mode)
 
 1. Clone or download this repository
